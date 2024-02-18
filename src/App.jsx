@@ -3,6 +3,7 @@ import Categories from "./components/Categories";
 import HeroSection from "./components/HeroSection";
 import WhatsNew from "./components/WhatsNew";
 import Contact from "./components/Contact";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <Categories />
       <WhatsNew />
+      <AboutUs />
       <Contact />
     </div>
   );

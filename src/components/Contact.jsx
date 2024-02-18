@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
           <div className="flex gap-5 items-center mb-2">
             <img src={email} alt="" className="w-5 aspect-square" />
-            <p>sumangalijewels@yahoo.com</p>
+            <p>sumangalijewelsparagon@gmail.com</p>
           </div>
         </div>
       </div>
