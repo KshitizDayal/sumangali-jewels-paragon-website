@@ -14,41 +14,49 @@ const Categories = () => {
       id: 1,
       categoryName: "Rings",
       img: ring,
+      price: 20000,
     },
     {
       id: 2,
       categoryName: "Earrings",
       img: earing,
+      price: 15000,
     },
     {
       id: 3,
       categoryName: "Pendants",
       img: chandbali,
+      price: 5000,
     },
     {
       id: 4,
       categoryName: "Bangels",
       img: bangles,
+      price: 1000,
     },
     {
       id: 5,
       categoryName: "Bracelets",
       img: bracelet,
+      price: 25000,
     },
     {
       id: 6,
       categoryName: "Haram",
       img: haram,
+      price: 25000,
     },
     {
       id: 7,
       categoryName: "Jhumka",
       img: jhumka,
+      price: 5000,
     },
     {
       id: 8,
       categoryName: "Choker",
       img: choker,
+      price: 30000,
     },
   ];
   return (
@@ -66,6 +74,9 @@ const Categories = () => {
               >
                 <h1 className=" top-5 left-5 font-semibold italic text-xl absolute">
                   {data?.categoryName}
+                </h1>
+                <h1 className=" bottom-5 right-5 font-normal italic text-l absolute">
+                  Price starting from &#8377;{data?.price}
                 </h1>
               </div>
             </div>
